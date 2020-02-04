@@ -6,17 +6,23 @@ nav {
   background: rgba(253, 149, 90, 0.8);
 }
 
+.sidenav li>a, 
+.sidenav {
+  background-color: rgb(57, 58, 73);
+  color: white;
+}
+
 .brand-logo {
   margin-left: 20px;
 }
 
 body {
   background-color: rgb(57, 58, 73);
-  color: rgb(166, 175, 175)
+  color: rgb(173, 175, 175)
 }
 
 .var-highlight {
-  color: #C0AD60;
+  color: rgba(209, 149, 214, 0.9);
 }
 
 .string-highlight {
@@ -27,9 +33,9 @@ body {
   width: 500px;
   height: 20px;
   position: absolute;
-  top:  40%;
-  left: 22%;
-  transform: translate(-40%,-22%);
+  top:  30%;
+  left: 18%;
+  transform: translate(-50%,-50%);
   font-size: 2.5vw;
   margin: 0;
   font-family: "Courier New";
@@ -58,10 +64,17 @@ body {
   }
 }
 
+@media screen and (max-width: 680px){
+  #typewriter{
+    font-size: 3.3vw;
+    left: 144px;
+  }
+}
+
 @media screen and (max-width: 480px){
   #typewriter{
     font-size: 3.8vw;
-    left: 95px;
+    left: 144px;
   }
    nav .brand-logo {
     font-size: 1.8rem;
