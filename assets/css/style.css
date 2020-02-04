@@ -170,12 +170,7 @@ h1 { font-size: 5em; }
   }
 
   @keyframes textflicker {
-    from {
-      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
-    }
-    to {
-      text-shadow: 1px 0.2px 0 #ea36af, -2px 0 0 #75fa69;
-    }
+    
   }
 
 }
