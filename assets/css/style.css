@@ -68,6 +68,10 @@ body {
     opacity: 1;
   }
 }
+
+.container #portContainer {
+  width: 70vw;
+}
 .portDiv {
   background: transparent;
   height: 20vw;
@@ -79,6 +83,7 @@ body {
 
 .portImg {
   width: 20vw;
+  max-width: 375px;
   border-radius: 50%;
   position: relative;
   top:  50%;
